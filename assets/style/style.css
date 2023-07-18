@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font: sans-serif;
+}
+.logo{
+    width: 85px;
+    margin-right: 2rem;
+}
+
+header{    
+    background-color: rgb(238, 189, 129);
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+}
+
+nav{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    min-height: 5rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    background-color: beige;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+}
+a:hover {
+    background-color: rgb(236, 152, 49);
+    color: #e217c7;
+    cursor: pointer;
+  }
+h1, h3, h4{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+main{
+    background-color: blanchedalmond;
+    min-height: 82vh;
+}
+
+#divImgCentro{
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+}
+#imgCentro{
+    width: 60vh;
+    border-radius: 2rem;
+    object-fit: cover;
+}
+
+.inferior{
+    min-width: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#pInferior{
+    font-size: 1.2rem;
+
+}
+#imgInf{
+    margin-right: 5rem;
+    width: 25vh;
+    border-radius: 2rem;
+}
+
+.divAbout{
+    width: 80vh;
+    margin-left: 20rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.divAbout p{
+    width: 20rem;
+}
+
+.imgAbout{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+
+#divImgContact{
+    min-height: 40vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#imgContact{
+    width: 40vh;
+    border-radius: 2rem;
+}
+#contactos{
+    min-height: 15vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#contactos a{
+    text-decoration: none;
+    color: black;
+}
+table{
+    font: 3em sans-serif;
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ol{
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+li{
+    padding: 0.5rem;
+}
+tr, td{
+    background-color: rgb(238, 189, 129);
+    padding: 1rem;
+    border-color: black;
+}
+#mainBenefits{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.List{
+    font: 3em sans-serif;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ol{
+    width: 30rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+li{
+    padding: 0.5rem;
+}
+tr, td{
+    background-color: rgb(238, 189, 129);
+    padding: 1rem;
+    border-color: black;
+}
+footer{
+    min-height: 8vh;
+    background-color: rgb(238, 189, 129);
+    color: black;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
